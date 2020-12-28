@@ -19,7 +19,7 @@ h1, h3, button, nav, a {
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -32,4 +32,25 @@ h3 {
     max-width: 100%;
     width: 1200px;
 
+}
+nav {
+    margin: 40px 0;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+
+}
+
+ul li {
+    margin-left: 40px;
+}
+
+ul li a {
+    color: var(--very-dark-blue);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
 }
