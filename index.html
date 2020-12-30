@@ -14,6 +14,7 @@
 
       <title>Frontend Mentor | Project tracking intro component</title>
 
+      <script src="./script.js" defer></script>
       <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
    </head>
 
@@ -21,6 +22,19 @@
       <nav>
          <div class="container">
             <img src="./images/logo.svg" alt="logo" />
+
+            <button class="hamburger" href="#" id="hamburger">
+               <img
+                  class="icon-hamburger"
+                  src="./images/icon-hamburger.svg"
+                  alt="hamburger-icon"
+               />
+               <img
+                  class="icon-close"
+                  src="./images/icon-close.svg"
+                  alt="close-icon"
+               />
+            </button>
 
             <ul>
                <li><a href="#">Product</a></li>
@@ -43,7 +57,7 @@
                <p>Project planning and time tracking for agile teams</p>
 
                <div class="flex">
-                  <button>Schedule a demo</button>
+                  <button class="btn">Schedule a demo</button>
                   <h3>to see a live preview</h3>
                </div>
             </div>
